@@ -15,7 +15,7 @@ console.log(string.toLowerCase())
 }
 var lowercase = "I can't hear you!"
 
-lowercase.toLowerCase() === lowercase
+string.toLowerCase() === lowercase
 
 function sayHiToGrandma(string){
 return string.toLowerCase()
