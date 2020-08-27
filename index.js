@@ -16,11 +16,11 @@ console.log(string.toLowerCase())
 
 
 function sayHiToGrandma(string){
-return string.toLowerCase()
+return string.toLowerCase("I can't hear you")
 
 return string.toUpperCase()
 
-var hello = "I can't hear you!"
+
 
 
 
