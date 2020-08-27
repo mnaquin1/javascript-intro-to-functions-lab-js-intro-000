@@ -25,11 +25,11 @@ return string.toMixedCase()
 
 var uppercase = "HELLO!"
 
-uppercase.toUpperCase() === uppercase // true
+string.toUpperCase() === uppercase // true
 
 var lowercase = 'hello!'
 
-lowercase.toLowerCase() === lowercase // true
+string.toLowerCase() === lowercase // true
 
 var mixedCase = 'Hi there!'
 
