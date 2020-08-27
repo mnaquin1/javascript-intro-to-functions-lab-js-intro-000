@@ -19,6 +19,9 @@ return string.toLowerCase()
 
 return string.toUpperCase()
 
+var lowercase = "I can't hear you!"
+ 
+lowercase.toLowerCase() === lowercase
 
 
 
