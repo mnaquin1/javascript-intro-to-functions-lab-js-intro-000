@@ -16,26 +16,6 @@ console.log(string.toLowerCase())
 
 
 function sayHiToGrandma(string){
-return string.toLowerCase()
-
-return string.toUpperCase()
-
-return string.toMixedCase()
-
-
-var uppercase = "HELLO!"
-
-string.toUpperCase() === uppercase // true
-
-var lowercase = 'hello!'
-
-string.toLowerCase() === lowercase // true
-
-var mixedCase = 'Hi there!'
-
-mixedCase.toLowerCase() === mixedCase // false
-
-mixedCase.toUpperCase() === mixedCase // false
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
