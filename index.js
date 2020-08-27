@@ -16,12 +16,11 @@ console.log(string.toLowerCase())
 
 
 function sayHiToGrandma(string){
-return string.toLowerCase()
+
+return string.toLowerCase(expect(sayHiToGrandma('hello')).toEqual("I can't hear you"))
 
 return string.toUpperCase()
-var lowercase = "I can't hear you!"
 
-string.toLowerCase() === lowercase
 
 
 
